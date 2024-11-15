@@ -1,5 +1,7 @@
 package SortingAlgorithms;
 
+import Print.Print;
+
 import java.awt.*;
 import java.util.ArrayList;
 
@@ -72,6 +74,8 @@ public class Sorting {
         for (int i = low; i <= high; i++) {
             arr[i] = temp.get(i - low);
         }
+        Print.printArray(arr);
+        System.out.println();
     }
 
     ///////////////////////////////////////////Quick Sort///////////////////////////////////////////////////////////////

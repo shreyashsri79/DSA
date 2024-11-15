@@ -1,14 +1,14 @@
 import GeeksForGeeks.UnionOfArray;
-import LeetCode.Moves0s;
-import LeetCode.NextPermutations;
-import LeetCode.RemoveDuplicatesFromSortedArray;
-import LeetCode.RotateArray;
+import LeetCode.*;
 import Print.Print;
+import SortingAlgorithms.Sorting;
+
+import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
-        int[] arr = { 1,3,2};
-        NextPermutations.nextPermutation(arr);
-        Print.printArray(arr);
+    public void main(){
+        int[] nums = {0,0,1,1,1,2,2,3,3,3};
+        removeDuplicates(nums);
+        Print.printArray(nums);
     }
 }
